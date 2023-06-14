@@ -1,4 +1,4 @@
-Primary - #025464
-Secondary - #E57C23
-Tertiary - #E8AA42
-OnPrimary - #F8F1F1
+Primary - #F5EFE7
+Secondary - #4F709C
+Tertiary - #213555
+OnPrimary - #D8C4B6
