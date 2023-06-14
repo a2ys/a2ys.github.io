@@ -1,0 +1,4 @@
+Primary - #025464
+Secondary - #E57C23
+Tertiary - #E8AA42
+OnPrimary - #F8F1F1
