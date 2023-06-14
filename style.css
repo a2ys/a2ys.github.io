@@ -12,7 +12,7 @@ body {
 
 .header {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position: center;
 }
@@ -34,6 +34,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 nav ul li {
@@ -43,7 +44,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #4F709C;
+    color: #213555;
     font-size: 18px;
     text-decoration: none;
     position: relative;
@@ -79,4 +80,54 @@ nav ul li a:hover::after {
 
 .header-text h1 span {
     color: #213555;
+}
+
+footer {
+    height: auto;
+    width: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    background-color: #213555;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.socials {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #F5EFE7;
+    padding: 10px;
+}
+
+.socials a i {
+    font-size: 2rem;
+}
+
+.footer-bottom {
+    width: auto;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 1.2rem;
 }
