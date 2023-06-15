@@ -1,42 +1,58 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Portfolio</title>
-    
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@400;900&family=Space+Grotesk:wght@300;400;700&family=Epilogue:wght@300;400;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/9b17ea3e38.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <div class="header">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@400;900&family=Space+Grotesk:wght@300;400;700&family=Epilogue:wght@300;400;600;500;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/9b17ea3e38.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
         <div class="container">
-            <nav>
-                <div class="logo">Aayush</div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-            </nav>
-            <div class="header-text">
-                <p>Aayush Shukla</p>
-                <h1>Hey there! I'm an <span>open-source developer</span><br>from India.</h1>
-            </div>
+            <header>
+                <nav>
+                    <div class="logo">Aayush</div>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main class="content">
+
+                <div class="header-text">
+                    <p>Aayush Shukla</p>
+                    <h1>Hey there! I'm an <span>open-source developer</span><br>from India.</h1>
+                </div>
+                <div class="projects">
+                    <p>Projects</p>
+                    <div class="project">
+                        <h1>Chess AI in Python</h1>
+                        <div class="description">This is an AI completely built on Python, and can play chess</div>
+                    </div>
+                    <div class="project">
+                        <h1>Music Player</h1>
+                        <div class="description">This is a Music Player built on Python, and can play .mp3 music files</div>
+                    </div>
+                </div>
+
+            </main>
+            
+            <footer>
+                <div class="footer-content">
+                    <ul class="socials">
+                        <li><a href="https://linkedin.com/in/oreus" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/a2ys" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; This is an original work of Aayush Shukla and is licensed under the GNU GPL v3.</p>
+                </div>
+            </footer>
         </div>
-    </div>
-    
-    <footer>
-        <div class="footer-content">
-            <ul class="socials">
-                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
-            </ul>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; This is an original work of Aayush Shukla and is licensed under the GNU GPL v3.</p>
-        </div>
-    </footer>
-</body>
+    </body>
 </html>
