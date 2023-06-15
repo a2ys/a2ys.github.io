@@ -35,7 +35,7 @@ header {
     padding: 10px 10%;
 }
 
-.logo {
+.logo a {
     color: #213555;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
@@ -84,6 +84,10 @@ nav ul li a:hover::after {
     color: #213555;
 }
 
+.header-text span {
+    font-weight: 700;
+}
+
 .header-text h1 {
     margin-top: 20px;
     font-size: 54px;
@@ -93,6 +97,20 @@ nav ul li a:hover::after {
 }
 
 .header-text h1 span {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+}
+
+.header-text h3 {
+    margin-top: 20px;
+    font-size: 27px;
+    font-family: 'Inter', sans-serif;
+    color: #213555;
+    font-weight:400;
+}
+
+.header-text h3 span {
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
 }
 
@@ -119,6 +137,10 @@ main {
 
 .description {
     margin-top: 20px;
+}
+
+.elem {
+    padding-top: 3px;
 }
 
 footer {
@@ -168,4 +190,25 @@ footer {
 .footer-bottom p {
     font-size: 1.2rem;
     color: #F5EFE7;
+}
+
+.footer-bottom p a {
+    text-decoration: none;
+    color: #F5EFE7;
+    position: relative;
+}
+
+.footer-bottom p a::after {
+    content: ' ';
+    width: 0;
+    height: 3px;
+    background: #F5EFE7;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.25s;
+}
+
+.footer-bottom p a:hover::after {
+    width: 100%;
 }
