@@ -32,7 +32,8 @@ header {
     height: 100%;
     background-size: cover;
     background-position: center;
-    padding: 10px 10%;
+    padding: 10px 30px 10px;
+    height: 50px;
 }
 
 .logo a {
@@ -184,7 +185,7 @@ footer {
     text-align: center;
     padding: 1rem;
     background-color: #213555;
-    position: relative;
+    position: absolute;
     bottom: 0;
 }
 
